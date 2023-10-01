@@ -1,11 +1,11 @@
-"""Provides basic class and tools for working with latitude and longitude"""
+"""Provides basic class and tools for working with overlay locations"""
 
 import re
 import math
 from typing import Optional
 
 class Location:
-    """Rudimentary latitude, longitude and location name class"""
+    """Class for UI-View overlay entries"""
     def __init__(self, name, lat, lon, table, symbol) -> None:
         self.name = name
         self.latitude = lat
