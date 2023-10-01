@@ -31,3 +31,7 @@ Convert input file _overlay.pos_ to Xastir log format using current UTC time for
 ### UI View POS Input
 
 Input should be in standard [APRS overlay format](https://www.ve3kbr.com/aprs/aprs_overlay_format.htm).
+
+### Xastir Timestamps
+
+The default for Xastir timestamps is 00:00:00 UTC. Specifying the `--current_time` option uses the current zulu time for the timestamps.
